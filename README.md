@@ -1,6 +1,6 @@
 # 5 Random Marvel Comics W/ Next.js, PlanetScale & Prisma
 
-### Simple app that fetches 5 random marvel comics on page load/ refresh from the Marvel API.
+### Simple app that fetches 5 random marvel comics on page load/ refresh from the Marvel API. Other features include being able to add an anonymous comment.
 
 ## Built with:
 
