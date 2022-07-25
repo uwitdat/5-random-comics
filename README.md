@@ -8,4 +8,5 @@
 - [Planet Scale](https://planetscale.com/)
 - [Marvel API](https://developer.marvel.com/)
 - [Typescript](https://www.typescriptlang.org/)
-  = [Prisma](https://www.prisma.io/)
+- [Prisma](https://www.prisma.io/)
+- [SCSS](https://sass-lang.com/documentation/syntax)
