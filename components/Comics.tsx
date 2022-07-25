@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/comics.module.scss';
 import { Comic } from 'pages';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Comics = ({ comics }: { comics: Comic[] }) => {
   if (!comics) return <p>Loading...</p>;
@@ -19,9 +20,9 @@ const Comics = ({ comics }: { comics: Comic[] }) => {
               width={300}
               height={300}
             />
-            <a href={`/comics/${comic.id}`}>
+            <Link href={`/comics/${comic.id}`}>
               <button>View More</button>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
