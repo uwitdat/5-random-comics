@@ -3,6 +3,7 @@ import { GetServerSideProps } from 'next/types';
 import md5 from 'md5';
 import styles from '../../styles/comic.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Comic {
   id: number;
@@ -109,9 +110,9 @@ const Meme = ({ data }: { data: ServerData }) => {
 
   return (
     <div className={styles.container}>
-      <a href="/">
+      <Link href="/">
         <button className={styles.button}>Back</button>
-      </a>
+      </Link>
       <section className={styles.comic}>
         <h1>{title}</h1>
         <h3>${price}</h3>
