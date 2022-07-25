@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+
+  & h1 {
+    font-size: 3rem;
+    margin-block: 2em;
+  }
+}
+
+
+.comics{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.comic {
+  max-width: 30rem;
+  list-style: none;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & button {
+    margin-top: 1em;
+    padding: .8rem 2.5em;
+    cursor: pointer;
+    border-radius: 100vh;
+    border: 3px solid black;
+    background-color: rgb(238, 253, 253);
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+
