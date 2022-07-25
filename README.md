@@ -10,3 +10,7 @@
 - [Typescript](https://www.typescriptlang.org/)
 - [Prisma](https://www.prisma.io/)
 - [SCSS](https://sass-lang.com/documentation/syntax)
+
+DEPLOYED WITH VERCEL:
+
+Live link => [5 random comics](https://five-random-comics.vercel.app/)
